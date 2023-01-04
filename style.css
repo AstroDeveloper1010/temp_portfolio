@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0ebe8;
+  /* width: 100vw; */
+}
+
+.container {
+  margin-top: 35px;
+  background-color: #e0ebe8;
+  height: 60vh;
+  color: #4ab19a;
+}
+
+.intro {
+  position: relative;
+  inset: 8vh 0px 0px 35vw;
+}
+
+.intro h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 400%;
+}
+
+.intro p {
+  font-size: 150%;
+  position: relative;
+  left: 6vw;
+}
+
+.nav {
+  background: #e0ebe8;
+  height: 8vh;
+}
+
+.nav_ul {
+  padding-left: 330px;
+}
+
+.nav_ul li {
+  display: inline-block;
+  font-size: 200%;
+  padding: 40px 70px 0px 0px;
+}
+
+.nav_ul li a {
+  color: #73c3b0;
+  text-decoration: none;
+}
+
+.cloud_left {
+  height: 20vh;
+  width: 10vw;
+  position: relative;
+  left: 320px;
+}
+
+.cloud_right {
+  height: 20vh;
+  width: 10vw;
+  position: relative;
+  left: 818px;
+  bottom: 80px;
+}
+
+.mountain{
+    display: block;
+    position: relative;
+    left: 30vw;
+    bottom: 12vh;
+}
+
+.se{
+    height: 80px;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+
+.footer{
+    background: blue;
+    color: white;
+    height: 8vh;
+    margin-top: 40vh;
+    text-align: center;
+}
+
+.footer span{
+    text-decoration: underline;
+}
+
+.content{
+    background: white;
+    height: 200vh;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.content p{
+    width: 20vw;
+    margin: auto auto;
+}
